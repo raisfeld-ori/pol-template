@@ -1,0 +1,81 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 1.6em;
+    font-size: 6em;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.405);
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    user-select: none;
+  
+  }
+  
+  .header2{
+    display: flex;
+    color: rgb(0, 85, 255);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 6em;
+    text-shadow: 3px 3px 3px rgba(4, 20, 37, 0.526);
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    user-select: none;
+  
+  }
+  
+  .clicktomain{
+    animation: text-shadow 1.5s ease-in-out infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding-top: 4.6em;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.405);
+      font-family: "Secular One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      user-select: none;
+  
+    }
+    
+  
+    
+    a:hover {
+      text-decoration: none;
+      cursor:wait;
+    }
+    
+    @keyframes text-shadow {
+      0% {  
+          transform: translateY(0);
+    
+      }
+    
+      20% {  
+          transform: translateX(0.1em);
+    
+      }
+    
+      40% {  
+          transform: translateX(-0.1em);
+    
+      }
+      
+     60% {
+          transform: translateY(0em);
+    
+      }
+    
+      80% {  
+          transform: translateY(0);
+    
+      }
+    }
+    

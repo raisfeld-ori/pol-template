@@ -1,0 +1,12 @@
+
+
+.pages{
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 25%;
+    bottom: 75%;
+    height: 5svh;
+    width: 20svw;
+    display: flex;
+}
