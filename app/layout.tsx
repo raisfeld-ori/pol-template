@@ -17,14 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <h1 className="header">FullName's</h1>
-      <h1 className="header2">Portfilio</h1>
-
-
-      <p className="clicktomain">Click Anywhere to begin!</p>
-      <footer className="footer1">Made by <span className="ftspn">Ariel Elkaslasi</span>, <span className="ftspn">Ori Risfeld</span>. </footer>
+        {children}
       </body>
-
     </html>
   );
 }
