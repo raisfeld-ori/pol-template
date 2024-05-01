@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <h1 className="header">Full Name's</h1>
+      <h1 className="header">FullName's</h1>
       <h1 className="header2">Portfilio</h1>
 
 
