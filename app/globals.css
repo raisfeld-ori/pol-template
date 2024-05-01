@@ -35,7 +35,7 @@
     #00000010,
     #00000080
   );
-
+  font-size: calc(0.1svh + 0.1svw + 10px);
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
@@ -126,7 +126,7 @@ a {
   align-items: center;
   position: relative;
   font-size: 6em;
-  text-shadow: 5px 5px 5px rgba(4, 20, 37, 0.526);
+  text-shadow: 3px 3px 3px rgba(4, 20, 37, 0.526);
   font-family: "Secular One", sans-serif;
   font-weight: 400;
   font-style: normal;
