@@ -26,7 +26,7 @@ export default function Home() {
         <h1 className="header">Yourname's</h1>
         <h1 className="header2">Portfilio</h1>
 
-        <div className="sp-container">
+    <div className="sp-container">
       <div className="sp-content">
         <div className="sp-globe"></div>
         <h2 className="frame-1">Talent #1</h2>
