@@ -14,7 +14,7 @@ export default function Home() {
   async function next_page(){
     set_opacity(0);
     await timeout(transition);
-    router.replace('/projects/socials');
+    router.replace('/projects/about');
   }
   return (
     <main className={styles.main}>
