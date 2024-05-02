@@ -91,6 +91,7 @@ body {
 body {
   background: rgb(28,86,139);
   background: linear-gradient(90deg, rgba(28,86,139,1) 0%, rgb(26, 98, 175) 55%, rgba(25,84,138,1) 100%);
+  overflow-y: hidden;
 }
 
 a {
