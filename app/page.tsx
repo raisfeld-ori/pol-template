@@ -23,7 +23,7 @@ export default function Home() {
       onClick={next_page}>
 
 
-        <h1 className="header">Yourname's</h1>
+        <h1 className="header">Yournames</h1>
         <h1 className="header2">Portfilio</h1>
 
     <div className="sp-container">
