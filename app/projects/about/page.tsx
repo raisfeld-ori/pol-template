@@ -12,8 +12,6 @@ export default function socials(){
       voluptas quae quasi amet dolorum aliquid minus quaerat error 
       similique dignissimos labore, facere provident iusto illo molestiae natus deleniti soluta?
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
-      similique dignissimos labore, facere provident iusto illo molestiae natus deleniti soluta?
     </p>
     <ul className="links">
       <li className="link"><Link href={"#"}>my social #1</Link></li>

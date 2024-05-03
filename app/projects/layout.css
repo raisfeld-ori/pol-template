@@ -55,7 +55,6 @@
   color: #fff;
   cursor: pointer;
   line-height: 1.15;
-  margin: 12px 0 0;
   outline: none;
   overflow: hidden;
   padding: 0 25px;
@@ -67,16 +66,21 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  font-size: 2em;
+  font-size: 3em;
   font-family: "Secular One", sans-serif;
   font-weight: 400;
   font-style: normal;
   z-index: 7;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .dropdown{
   transition: all 0.2s ease-in-out;
   z-index: 2;
+  background-color: #405cf5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .child-container{
@@ -130,10 +134,12 @@ h1, li, p{
   font-family: "Secular One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  list-style-type: none;
 }
 
 .container{
   text-align: center;
+  height: 100%;
 }
 
 .head{
@@ -142,7 +148,7 @@ h1, li, p{
 }
 
 .description{
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 1em;
 }
 
@@ -163,7 +169,7 @@ h1, li, p{
     flex-direction: column;
   }
   .description{
-    font-size: 1;
+    font-size: 1.5em;
     margin: 0;
   }
 }
