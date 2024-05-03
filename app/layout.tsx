@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <footer className="footer1">Made by <span className="ftspn">Ariel Elkaslasi</span>, <span className="ftspn">Ori Risfeld</span>. </footer>
+        <footer className="footer1">Made by <span className="ftspn">Ariel Elkaslasi</span> and <span className="ftspn">Ori Risfeld</span>. </footer>
       </body>
     </html>
   );
