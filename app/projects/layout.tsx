@@ -19,9 +19,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <nav className="pages">
-          <div className="left page">
+          <div className="left page" onMouseLeave={() => set_left_menu(false)}>
             <button className="button-9 page drop"
             onClick={() => set_left_menu(!left_menu)}
+            onMouseEnter={() => set_left_menu(true)}
             >First year<br />⌄</button>
             <ul className="dropdown" style={{transform: left_menu ? "translate(0, 0)" : "translate(0, -50vh)"}}>
             <li className="option" onClick={() => SwitchPage('/projects/first_year/winter')}>winter</li>
@@ -31,7 +32,7 @@ export default function RootLayout({
             </ul>
           </div>
           <div className="middle page">
-            <button className="button-9 page" onClick={() => SwitchPage('/projects/about')}>About me</button>
+            <button className="button-9 page no-drop" onClick={() => SwitchPage('/projects/about')}>About me</button>
           </div>
             <div className="right page" onMouseLeave={() => set_right_menu(false)}>
               <button className="button-9 page drop"
