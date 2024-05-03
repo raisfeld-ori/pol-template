@@ -60,7 +60,6 @@ export default function RootLayout({
         <div className='child-container' style={{opacity, transition: transition + "ms"}}>
         {children}
         </div>
-        <footer className="footer1">Made by <span className="ftspn">Ariel Elkaslasi</span> and <span className="ftspn">Ori Risfeld</span>. </footer>
       </body>
     </html>
   );

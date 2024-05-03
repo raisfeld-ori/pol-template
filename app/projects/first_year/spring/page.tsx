@@ -1,4 +1,5 @@
-
+import example from './example_img.jpg';
+import Image from 'next/image';
 
 export default function Page(){
     return <div className="container">
@@ -13,7 +14,7 @@ export default function Page(){
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
     </p>
     <div className="images">
-        <img className="image" src="/example_img.png"/>
+        <Image className="image" src={example} alt=''/>
     </div>
     </div>
 }

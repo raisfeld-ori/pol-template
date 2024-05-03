@@ -1,6 +1,5 @@
 'use client'
 import { useState } from "react";
-import styles from "./page.module.css";
 import './page.css';
 import { useRouter } from "next/navigation";
 function timeout(delay: number) {
@@ -17,7 +16,7 @@ export default function Home() {
     router.replace('/projects/about');
   }
   return (
-    <main className={styles.main}>
+    <main>
       <div 
       style={{transition: transition + "ms", opacity: opacity.toString()}}
       onClick={next_page}>
