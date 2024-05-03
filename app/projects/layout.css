@@ -34,10 +34,14 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .page{
     width: 100%;
+    z-index: 6;
 }
 
 .option{
@@ -64,6 +68,10 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   font-size: 2em;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 7;
 }
 
 .dropdown{
@@ -72,10 +80,104 @@
 }
 
 .child-container{
-  height: 100vh;
+  height: 70vh;
+  margin-top: 10svh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.no-drop{
+  box-shadow: none;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.no-drop:hover{
+  animation-name: glow;
+}
+
+@keyframes glow {
+  0%{
+    box-shadow: none;
+  }
+  50%{
+    box-shadow:
+    0 0 20px 5px #fff,
+    0 0 35px 10px #f0f,
+    0 0 20px 15px #0ff;
+  }
+  100%{
+    box-shadow: none;
+  }
+}
+
+@keyframes stop-glowing {
+  0%{
+    box-shadow:
+    0 0 20px 5px #fff,
+    0 0 35px 10px #f0f,
+    0 0 20px 15px #0ff;
+  }
+  100%{
+    box-shadow: none;
+  }
+}
+
+h1, li, p{
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+  text-align: center;
+}
+
+.head{
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.description{
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+.links{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 9;
+}
+
+@media (max-width: 490px) {
+  .head{
+    font-size: 2.5em;
+    margin-bottom: 0;
+  }
+  .links{
+    flex-direction: column;
+  }
+  .description{
+    font-size: 1;
+    margin: 0;
+  }
+}
+
+.link{
+  font-size: 2em;
+}
+
+.images{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.image{
+  height: 10em;
 }

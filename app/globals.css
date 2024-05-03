@@ -113,6 +113,7 @@ a {
     margin-right: 1svh;
     font-family: "Secular One", sans-serif;
     font-style: normal;
+    z-index: 10;
   }
 
   .ftspn{
