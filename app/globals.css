@@ -105,6 +105,12 @@ a {
   }
 }
 
+@media (max-width: 490px) {
+  .footer1{
+    display: none;
+  }
+}
+
   .footer1{
     position: absolute; 
     bottom: 0; 

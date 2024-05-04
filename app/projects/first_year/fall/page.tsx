@@ -16,6 +16,9 @@ export default function Page(){
     <div className="image-container">
       <Image className="image" src={example} alt=""/>
     </div>
+    <div className="image-container">
+      <Image className="image" src={example} alt=""/>
+    </div>
   </div>
   </div>
 }
