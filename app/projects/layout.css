@@ -168,6 +168,7 @@ h1, li, p{
 .link{
   font-size: 2em;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .link:hover{
