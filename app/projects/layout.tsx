@@ -1,7 +1,7 @@
 "use client"
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import './layout.css';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function timeout(delay: number) {
   return new Promise( res => setTimeout(res, delay) );
@@ -17,13 +17,14 @@ export default function RootLayout({
   const [opacity, set_opcacity] = useState(1);
   const transition = 1000;
   const router = useRouter();
+  const pathname = usePathname();
+  useEffect(() => {set_opcacity(1);}, [pathname])
   const SwitchPage = async (location: string) => {
     set_left_menu(false);
     set_right_menu(false);
     set_opcacity(0);
     await timeout(transition);
     router.replace(location);
-    set_opcacity(1);
   }
   return (
     <html lang="en">
