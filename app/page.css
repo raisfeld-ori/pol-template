@@ -1,4 +1,8 @@
 
+body{
+  overflow: hidden;
+}
+
 .header{
   z-index: 2;
     display: flex;
@@ -657,4 +661,20 @@
       }
       100% {
       }
+  }
+
+  @media screen and (max-width: 460px) {
+    .header{
+      font-size: 3em;
+    }
+    .header2{
+      font-size: 2em;
+    }
+    .sp-container h2{
+      top: 50%;
+      font-size: 2em;
+    }
+    .clicktomain{
+      font-size: 2em;
+    }
   }
