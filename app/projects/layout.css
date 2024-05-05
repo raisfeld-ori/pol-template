@@ -98,7 +98,7 @@
 }
 
 .child-container{
-  height: 70vh;
+  height: 100vh;
   margin-top: 10svh;
   width: 100%;
   display: flex;
@@ -145,11 +145,10 @@ h1, li, p{
 .description{
   font-size: 1.5em;
   margin-right: 3em;/* REMOVE THIS IN WHILE MEDIA*/
-
 }
 
 .links{
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   position: absolute;
@@ -204,10 +203,6 @@ h1, li, p{
   .CV{
     display: flex;
     flex-direction: column;
-
-  }
-  .Aboutme{
-    
   }
 }
 
@@ -235,7 +230,6 @@ h1, li, p{
 .CV-text{
   font-size: 1.5em;
   margin-left: 3em; /* REMOVE THIS IN WHILE MEDIA*/
-
 }
 
 .Whoami{

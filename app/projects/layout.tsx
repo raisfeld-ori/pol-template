@@ -39,7 +39,8 @@ export default function RootLayout({
             onMouseEnter={() => set_left_menu(true)}
             >First year<br />⌄</button>
               <ul className="dropdown" style={{display: left_menu ? "inherit" : "none"}}>
-              <li className="option" onClick={async () => SwitchPage('/projects/first_year/fall')}>Fall Project</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/first_year/fall')}>Mini Project</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/first_year/autumn')}>Autumn Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/winter')}>Winter Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/spring')}>Spring Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/summer')}>Summer Project</li>
@@ -54,8 +55,9 @@ export default function RootLayout({
               onClick={() => set_right_menu(!right_menu)}
               >Second year<br />⌄</button>
               <ul className="dropdown" style={{display: right_menu ? "inherit" : "none"}}>
-              <li className="option" onClick={async () => SwitchPage('/projects/second_year/fall')}>Fall Project</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/second_year/fall')}>Mini Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/winter')}>Winter Project</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/second_year/autumn')}>autumn Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/spring')}>Spring Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/summer')}>Summer Project</li>
               </ul>
