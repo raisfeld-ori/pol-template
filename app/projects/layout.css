@@ -192,3 +192,6 @@ h1, li, p{
   object-fit: contain;
 }
 
+.descriptions{
+  display: flex;
+}
