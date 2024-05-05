@@ -20,7 +20,6 @@ export default function RootLayout({
       <SpeedInsights />
       <body>
         {children}
-        <footer className="footer1">Made by <span className="ftspn">Ariel Elkaslasi</span> and <span className="ftspn">Ori Risfeld</span>. </footer>
       </body>
     </html>
   );
