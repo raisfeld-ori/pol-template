@@ -41,8 +41,9 @@
 }
 
 .page{
-    width: 100%;
-    z-index: 6;
+  position: sticky;
+  width: 100%;
+  z-index: 6;
 }
 
 .option{
@@ -98,7 +99,6 @@
 }
 
 .child-container{
-  height: 100vh;
   margin-top: 10svh;
   width: 100%;
   display: flex;
@@ -144,16 +144,16 @@ h1, li, p{
 
 .description{
   font-size: 1.5em;
-  margin-right: 3em;/* REMOVE THIS IN WHILE MEDIA*/
+  margin-right: 3em;
 }
 
 .links{
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
+  position:sticky;
   z-index: 9;
-
+  bottom: 0;
 }
 
 .link{
@@ -182,28 +182,6 @@ h1, li, p{
 
 .link:hover{
   color: rgb(7, 147, 255);
-}
-
-@media (max-width: 490px) {
-
-  .description{
-    font-size: 1.5em;
-    margin: 0;
-  }
-  .images{
-    flex-direction: column;
-  }
-  .descriptions{
-    flex-direction: column;
-  }
-  .head{
-    font-size: 3.5em;
-    margin-bottom: 3em;
-  }
-  .CV{
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .images{
@@ -245,3 +223,27 @@ h1, li, p{
 }
 
 
+@media (max-width: 490px) {
+
+  .description{
+    font-size: 1.5em;
+    margin: 0;
+  }
+  .images{
+    flex-direction: column;
+  }
+  .descriptions{
+    flex-direction: column;
+  }
+  .head{
+    font-size: 3.5em;
+    margin-bottom: 3em;
+  }
+  .CV{
+    display: flex;
+    flex-direction: column;
+  }
+  .CV-text{
+    margin-left: 0;
+  }
+}
