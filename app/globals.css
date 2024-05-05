@@ -110,7 +110,7 @@ html {
 }
 
   .footer1{
-    position: absolute; 
+    position:sticky; 
     bottom: 0; 
     right: 0;
     margin-top: auto;
