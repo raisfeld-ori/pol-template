@@ -25,6 +25,8 @@ export default function RootLayout({
     set_opcacity(0);
     await timeout(transition);
     router.replace(location);
+    //@ts-expect-error
+    router.push(location, undefined, { shallow: true });
     if (pathname == location){set_opcacity(1);}
   }
   return (
