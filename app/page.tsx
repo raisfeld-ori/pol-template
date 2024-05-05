@@ -25,22 +25,7 @@ export default function Home() {
         <h1 className="header">Yournames</h1>
         <h1 className="header2">Portfilio</h1>
 
-    <div className="sp-container">
-      <div className="sp-content">
-        <div className="sp-globe"></div>
-        <h2 className="frame-1">Talent #1</h2>
-        <h2 className="frame-2">Talent #2</h2>
-        <h2 className="frame-3">Talent #3</h2>
-        <h2 className="frame-4">Talent #4</h2>
-        <h2 className="frame-5">
 
-          
-          <span>Erm,</span>
-          <span> What the,</span>
-          <span> Sigma.</span>
-        </h2>
-      </div>
-    </div>
     <div className="animation-container">
       <div className="lightning-container">
         <div className="lightning white"></div>

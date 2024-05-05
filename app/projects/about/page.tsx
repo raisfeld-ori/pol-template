@@ -6,43 +6,51 @@ export default function socials(){
   return <div className="container">
     <h1 className="head">About me</h1>
     <div className="descriptions">
+    <div className="aboutme">
+     <h1 className="Whoami">Who am i?</h1>
+    <p className="description">
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+        Information about your personal life, hobbys, talents, etc...
+    </p>
+    </div>
     <div className="CV">
       <h1 className="CV-head">CV</h1>
-      <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
-      similique dignissimos labore, facere provident iusto illo molestiae natus deleniti soluta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
-      similique dignissimos labore, facere provident iusto illo molestiae natus deleniti soluta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
+      <p className="CV-text">
+         Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities.  
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities.  
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+        Please fill here information about your studies in this school, achivements, goals, passions, work abilities. 
+
       </p>
     </div>
-    <p className="description">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
-      similique dignissimos labore, facere provident iusto illo molestiae natus deleniti soluta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
-      similique dignissimos labore, facere provident iusto illo molestiae natus deleniti soluta?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur 
-      voluptas quae quasi amet dolorum aliquid minus quaerat error 
-    </p>
     </div>
     <ul className="links">
   
       <li className="link">
-      <img className="right-side small" src="https://i.imgur.com/XHupYIb.jpg"/>
         <Link href={"#"}>LinkedIn</Link>
       </li>
-      <li className="link"><Link href={"#"}>Null</Link></li>
-      <li className="link"><Link href={"#"}>Instagram</Link></li>
+      <li className="link"><Link href={"#"}>Github</Link></li>
+      <li className="link"><Link href={"#"}>Facebook</Link></li>
     </ul>
     </div>
 }
