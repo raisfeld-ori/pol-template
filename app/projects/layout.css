@@ -144,9 +144,7 @@ h1, li, p{
 
 .description{
   font-size: 1.5em;
-  width: 30em;
   margin-right: 3em;/* REMOVE THIS IN WHILE MEDIA*/
-  max-width: 30em;
 
 }
 
@@ -156,12 +154,31 @@ h1, li, p{
   justify-content: space-evenly;
   position: absolute;
   z-index: 9;
+
 }
 
 .link{
   font-size: 2em;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
+  user-select: none;
+}
+
+.linkprj{
+  font-size: 2em;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.linksprj{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  margin-top: 40em;
+  z-index: 9;
 }
 
 .link:hover{
@@ -169,19 +186,28 @@ h1, li, p{
 }
 
 @media (max-width: 490px) {
-  .head{
-    font-size: 2.5em;
-    margin-bottom: 0;
-  }
-  .links{
-    flex-direction: column;
-  }
+
   .description{
     font-size: 1.5em;
     margin: 0;
   }
   .images{
     flex-direction: column;
+  }
+  .descriptions{
+    flex-direction: column;
+  }
+  .head{
+    font-size: 3.5em;
+    margin-bottom: 3em;
+  }
+  .CV{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Aboutme{
+    
   }
 }
 
@@ -209,11 +235,7 @@ h1, li, p{
 .CV-text{
   font-size: 1.5em;
   margin-left: 3em; /* REMOVE THIS IN WHILE MEDIA*/
-  width: 54em;
 
-
-
-  
 }
 
 .Whoami{
@@ -227,4 +249,5 @@ h1, li, p{
   margin-bottom: 1em;
 
 }
+
 
