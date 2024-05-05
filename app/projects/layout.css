@@ -98,7 +98,7 @@
 }
 
 .child-container{
-  height: 70vh;
+  height: 100vh;
   margin-top: 10svh;
   width: 100%;
   display: flex;
@@ -145,13 +145,12 @@ h1, li, p{
 .description{
   font-size: 1.5em;
   width: 30em;
-  margin-right: 3em;/* REMOVE THIS IN WHILE MEDIA*/
-  max-width: 30em;
+  margin-right: 3em;
 
 }
 
 .links{
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   position: absolute;
@@ -183,6 +182,12 @@ h1, li, p{
   .images{
     flex-direction: column;
   }
+  .descriptions{
+    flex-direction: column;
+  }
+  .description{
+    margin-right: 0;
+  }
 }
 
 .images{
@@ -210,9 +215,6 @@ h1, li, p{
   font-size: 1.5em;
   margin-left: 3em; /* REMOVE THIS IN WHILE MEDIA*/
   width: 54em;
-
-
-
   
 }
 
