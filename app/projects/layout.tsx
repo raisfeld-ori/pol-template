@@ -24,7 +24,7 @@ export default function RootLayout({
     set_right_menu(false);
     set_opcacity(0);
     await timeout(transition);
-    router.replace(location);
+    router.push(location);
     if (pathname == location){set_opcacity(1);}
   }
   return (
