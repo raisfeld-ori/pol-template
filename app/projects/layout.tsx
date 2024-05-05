@@ -25,6 +25,7 @@ export default function RootLayout({
     set_opcacity(0);
     await timeout(transition);
     router.replace(location);
+    if (pathname == location){set_opcacity(1);}
   }
   return (
     <html lang="en">
@@ -35,7 +36,7 @@ export default function RootLayout({
             onClick={() => set_left_menu(!left_menu)}
             onMouseEnter={() => set_left_menu(true)}
             >First year<br />⌄</button>
-              <ul className="dropdown" style={{transform: left_menu ? "translate(0, 0)" : "translate(0, -50vh)"}}>
+              <ul className="dropdown" style={{display: left_menu ? "inherit" : "none"}}>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/fall')}>Fall Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/winter')}>Winter Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/spring')}>Spring Project</li>
@@ -50,7 +51,7 @@ export default function RootLayout({
               onMouseEnter={() => set_right_menu(true)}
               onClick={() => set_right_menu(!right_menu)}
               >Second year<br />⌄</button>
-              <ul className="dropdown" style={{transform: right_menu ? "translate(0, 0)" : "translate(0, -50vh)"}}>
+              <ul className="dropdown" style={{display: right_menu ? "inherit" : "none"}}>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/fall')}>Fall Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/winter')}>Winter Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/spring')}>Spring Project</li>
