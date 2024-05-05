@@ -13,7 +13,7 @@ export default function Home() {
   async function next_page(){
     set_opacity(0);
     await timeout(transition);
-    router.push('/projects/about');
+    router.replace('/projects/about');
   }
   return (
     <main>
