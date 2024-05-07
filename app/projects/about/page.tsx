@@ -7,7 +7,7 @@ export default function socials(){
     <h1 className="head">About me</h1>
     <div className="descriptions">
     <div className="aboutme">
-     <h1 className="Whoami">Who am i?</h1>
+     <h1 className="whoami">Who am i?</h1>
     <p className="description">
         Information about your personal life, hobbys, talents, etc...
         Information about your personal life, hobbys, talents, etc...

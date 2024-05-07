@@ -180,6 +180,11 @@ h1, li, p{
   z-index: 9;
 }
 
+.linkprj:hover{
+  color: rgb(7, 147, 255);
+
+}
+
 .link:hover{
   color: rgb(7, 147, 255);
 }
@@ -210,7 +215,7 @@ h1, li, p{
   margin-left: 3em; /* REMOVE THIS IN WHILE MEDIA*/
 }
 
-.Whoami{
+.whoami{
   font-size: 2.5em;
   margin-bottom: 1em;
 
@@ -255,7 +260,7 @@ h1, li, p{
     flex-direction: column;
   }
   .head{
-    font-size: 3.5em;
+    font-size: 4em;
     margin-bottom: 3em;
   }
   .CV{
@@ -265,4 +270,18 @@ h1, li, p{
   .CV-text{
     margin-left: 0;
   }
+  .CV-head{
+    font-size: 3.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;  
+}
+.whoami{
+  font-size: 3.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.option{
+  font-size: 1.8em;
+}
 }
