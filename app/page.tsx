@@ -15,6 +15,7 @@ export default function Home() {
     await timeout(transition);
     //@ts-expect-error
     router.push(location, undefined, { shallow: true });
+    router.refresh();
     router.replace('/projects/about');
   }
   return (
